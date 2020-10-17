@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Form</title>
+<style>
+    body { background-color: rgb(250, 245, 239); }
+    .main { height: 450px;
+            width: 700px;
+            background-color: rgb(255, 255, 255);
+             margin: 8% 0% 0 23%;
+            border-radius: 6%;
+            display: inline-block;}
+    .yellow { height: 450px;
+              width: 297px;
+              background-color: rgb(255, 215, 0);
+              border-radius: 6% 0% 0% 6%;
+              display: inline-block; }   
+    .img01 { margin: 112px 80px 0px 80px; }
+    .h1 { font-size: 22px;
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: center;}
+    .p1 { font-size: 12px;
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: center;
+          margin-top: -8px; }
+    .img02 { margin: 20px 130px 5px 130px; }
+    .formdiv {height: 450px;
+              width: 399px;
+              border-radius: 0% 6% 6% 0%;
+              display: inline-block;
+              /*background-color: rgb(255, 0, 0);
+              position: absolute;
+              top: 108px;
+              left: 633px;*/
+                }
+    input { font-size : 12px;
+            width: 190px;
+            height: 22px;
+            border-radius: 5px;
+            border: 2px solid lightgray ;          
+            background-color: rgb(247, 247, 247); }
+    form { margin: 50px 0px 5px 50px; }
+    .form {  margin: 20px 5px 5px 5px;
+             font-family: Arial, Helvetica, sans-serif;
+             font-size: 12px; }
+    .imggen { margin: -20px 0 -20px -9px;
+               }
+    .gender { color: lightgray; }
+    ::-moz-placeholder{ color: lightgray; }
+    ::-webkit-input-placeholder{ color: lightgray; }
+    .dateofbirth { background-image: url() }
+    .imgdate { height: 22px;
+               width: 22px;
+               position: relative;
+               top: 7px;
+                right: 30px; }
+    .btncancel { height: 35px;
+                 width: 100px;
+                 background-color: rgb(247, 247, 247);
+                 border-radius: 5px;
+                 font-size: 11px;
+                 border: none; }
+    .btnsave { height: 35px;
+                 width: 100px;
+                 background-color: lightgreen;
+                 border-radius: 5px;
+                 font-size: 11px;
+                 border: none; }
+    .btndiv { position: relative;
+            left: 50px;
+            TOP: 20px; }
+</style>
+</head>
+<body>
+    <div class="main">
+     <div class="yellow">
+      <img class="img01" src="./Images/img01.PNG" alt="">
+      <h3 class="h1" > Let's get you set up </h3>
+      <P class="p1" > Itshould only take a couple of minutes <br>to pair with your watch </P>
+      <img class="img02" src="./Images/img02.PNG" alt="">
+     </div> 
+     <div class="formdiv" >
+     <form action="www.google.com">
+     
+       <div class="form" > <label for="">
+           Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input placeholder="   Aqib Memon" type="text">
+      </label></div>
+      
+     <div class="form" > <label for="">
+            Gender &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="gender" ><img class="imggen" src="./Images/male.PNG" >
+            Male <img class="imggen" src="./Images/female.PNG" > Female</span>
+        </label> </div> 
+     <div class="form" > <label for="">
+                Date of Birth &nbsp;&nbsp; <input placeholder="   01/12/2019" type="text" class="dateofbirth" >
+       </label><img class="imgdate" src="./Images/DateofBirth.png" alt=""></div>  
+     <div class="form" > <label for="">
+                Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input placeholder="   exanple@gmail.com" type="text">
+      </label></div>
+     <div class="form" >     <label for="">
+            Mobile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input placeholder="   0333-2255225" type="text">
+      </label></div>
+     <div class="form" > <label for="">
+            Customer ID &nbsp;&nbsp;&nbsp; <input placeholder="   E555145-E454458" type="text"  >
+      </label></div>
+      <div class="form" > <label for="">
+        Membership &nbsp;&nbsp;&nbsp;<span class="Membership" ><img class="imgmem" src="./Images/Debitcard.PNG" >
+            Classic <img class="imgmem" src="./Images/Debitcard.PNG" > Silver
+            <img class="imgmem" src="./Images/Debitcard.PNG" > Gold</span>
+     </label></div>    
+     <div class="btndiv" > <button class="btncancel" >CANCEL</button>
+     <button class="btnsave" >SAVE</button> </div>    
+     </form>`   
+     </div>
+
+
+
+    </div>
+    
+</body>
+</html>
